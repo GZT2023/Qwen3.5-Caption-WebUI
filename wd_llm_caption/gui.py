@@ -12,8 +12,8 @@ from .utils.logger_util import print_title
 
 WD_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_wd.json")
 JOY_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_joy.json")
-LLAMA_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_llama_3.2V.json")
-QWEN_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_qwen2_vl.json")
+LLAMA_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_llama_V.json")
+QWEN_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_qwen_vl.json")
 MINICPM_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_minicpm.json")
 JANUS_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_janus.json")
 GEMMA3_CONFIG = os.path.join(os.path.dirname(__file__), "configs", "default_gemma3.json")

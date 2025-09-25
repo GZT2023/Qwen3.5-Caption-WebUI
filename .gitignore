@@ -8,3 +8,4 @@ build
 dist
 models
 wd_llm_caption.egg-info
+uv.lock

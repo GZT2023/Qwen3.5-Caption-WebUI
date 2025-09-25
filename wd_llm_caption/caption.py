@@ -16,7 +16,7 @@ from .inference.joy_caption import Joy
 from .inference.llama_caption import Llama
 from .inference.minicpm_caption import Minicpm2
 from .inference.online_llm_caption import OpenAIapi
-from .inference.qwen_caption import Qwen2
+from .inference.qwen_caption import QwenVL
 from .inference.wd_tagger import Tagger
 from .utils.download_util import download_models
 from .utils.image_process_util import get_image_paths
@@ -156,7 +156,7 @@ class Caption:
         elif self.use_llama:
             # Check Llama models path from json
             if not args.llm_config:
-                llm_config_file = os.path.join(Path(__file__).parent, 'configs', 'default_llama_3.2V.json')
+                llm_config_file = os.path.join(Path(__file__).parent, 'configs', 'default_llama_V.json')
             else:
                 llm_config_file = Path(args.llm_config)
             # Download Llama models
@@ -169,7 +169,7 @@ class Caption:
             )
         elif self.use_qwen:
             if not args.llm_config:
-                llm_config_file = os.path.join(Path(__file__).parent, 'configs', 'default_qwen2_vl.json')
+                llm_config_file = os.path.join(Path(__file__).parent, 'configs', 'default_qwen_vl.json')
             else:
                 llm_config_file = Path(args.llm_config)
             # Download Qwen models
@@ -265,7 +265,7 @@ class Caption:
             self.my_llm.load_model()
         elif self.use_qwen:
             # Load Qwen models
-            self.my_llm = Qwen2(
+            self.my_llm = QwenVL(
                 logger=self.my_logger,
                 models_paths=self.llm_models_paths,
                 args=args,
@@ -740,7 +740,7 @@ def setup_args() -> argparse.Namespace:
     llm_args.add_argument(
         '--llm_config',
         type=str,
-        help='config json for LLM Caption models, default is `default_llama_3.2V.json`'
+        help='config json for LLM Caption models, default is `default_llama_V.json`'
     )
     llm_args.add_argument(
         '--llm_online_api_key',

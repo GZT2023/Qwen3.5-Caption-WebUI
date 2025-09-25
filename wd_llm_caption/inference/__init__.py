@@ -3,7 +3,7 @@ from argparse import Namespace
 from pathlib import Path
 
 from PIL import Image
-from torch import dtype
+# from torch import dtype
 from tqdm import tqdm
 
 from ..utils.image_process_util import get_image_paths
@@ -50,7 +50,8 @@ DEFAULT_USER_PROMPT_WITHOUT_WD = """Please describe this image."""
 def get_llm_dtype(
         logger: Logger,
         args: Namespace
-) -> dtype:
+# ) -> dtype:
+):
     try:
         import torch
         if args.llm_dtype == "bf16":
@@ -193,6 +194,7 @@ def llm_inference(self):
 
         except Exception as e:
             self.logger.error(f"Failed to caption image: {image_path}, skip it.\nerror info: {e}")
+            pbar.update(1)
             continue
 
         pbar.update(1)

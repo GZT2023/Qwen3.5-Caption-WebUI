@@ -2,7 +2,6 @@ accelerate>=1.5.2
 attrdict
 bitsandbytes>=0.42.0
 einops
-openai>=1.66.3
 peft>=0.14.0
 sentencepiece>=0.2.0
 torch>=2.2.2

@@ -9,7 +9,7 @@ from ..utils.image_process_util import image_process, image_process_image
 from ..utils.logger_util import Logger
 
 
-class Qwen2:
+class QwenVL:
     def __init__(
             self,
             logger: Logger,
@@ -40,7 +40,8 @@ class Qwen2:
         # Import transformers
         try:
             from transformers import (AutoProcessor, AutoTokenizer, BitsAndBytesConfig,
-                                      Qwen2VLForConditionalGeneration, Qwen2_5_VLForConditionalGeneration)
+                                      Qwen2VLForConditionalGeneration, Qwen2_5_VLForConditionalGeneration,
+                                      Qwen3VLMoeForConditionalGeneration)
         except ImportError as ie:
             self.logger.error(f'Import transformers Failed!\nDetails: {ie}')
             raise ImportError
@@ -67,7 +68,13 @@ class Qwen2:
         else:
             qnt_config = None
         # Load Qwen 2 VL model
-        if str(self.args.llm_model_name).startswith("Qwen2.5-VL"):
+        if self.args.llm_model_name.startswith("Qwen3-VL"):
+            self.llm = Qwen3VLMoeForConditionalGeneration.from_pretrained(self.llm_path,
+                                                                          device_map="auto" \
+                                                                              if not self.args.llm_use_cpu else "cpu",
+                                                                          torch_dtype=llm_dtype,
+                                                                          quantization_config=qnt_config)
+        elif str(self.args.llm_model_name).startswith("Qwen2.5-VL"):
             self.llm = Qwen2_5_VLForConditionalGeneration.from_pretrained(self.llm_path,
                                                                           device_map="auto" \
                                                                               if not self.args.llm_use_cpu else "cpu",
