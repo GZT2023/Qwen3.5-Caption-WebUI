@@ -41,7 +41,7 @@ class QwenVL:
         try:
             from transformers import (AutoProcessor, AutoTokenizer, BitsAndBytesConfig,
                                       Qwen2VLForConditionalGeneration, Qwen2_5_VLForConditionalGeneration,
-                                      Qwen3VLMoeForConditionalGeneration)
+                                      Qwen3VLMoeForConditionalGeneration, Qwen3VLForConditionalGeneration)
         except ImportError as ie:
             self.logger.error(f'Import transformers Failed!\nDetails: {ie}')
             raise ImportError
@@ -67,13 +67,20 @@ class QwenVL:
             self.logger.info(f'LLM 8bit quantization: Enabled')
         else:
             qnt_config = None
-        # Load Qwen 2 VL model
-        if self.args.llm_model_name.startswith("Qwen3-VL"):
-            self.llm = Qwen3VLMoeForConditionalGeneration.from_pretrained(self.llm_path,
-                                                                          device_map="auto" \
-                                                                              if not self.args.llm_use_cpu else "cpu",
-                                                                          torch_dtype=llm_dtype,
-                                                                          quantization_config=qnt_config)
+        # Load Qwen VL model
+        if str(self.args.llm_model_name).startswith("Qwen3-VL"):
+            if "A3B" in str(self.args.llm_model_name):
+                self.llm = Qwen3VLMoeForConditionalGeneration.from_pretrained(self.llm_path,
+                                                                              device_map="auto" \
+                                                                                  if not self.args.llm_use_cpu else "cpu",
+                                                                              torch_dtype=llm_dtype,
+                                                                              quantization_config=qnt_config)
+            else:
+                self.llm = Qwen3VLForConditionalGeneration.from_pretrained(self.llm_path,
+                                                                             device_map="auto" \
+                                                                                 if not self.args.llm_use_cpu else "cpu",
+                                                                             torch_dtype=llm_dtype,
+                                                                             quantization_config=qnt_config)
         elif str(self.args.llm_model_name).startswith("Qwen2.5-VL"):
             self.llm = Qwen2_5_VLForConditionalGeneration.from_pretrained(self.llm_path,
                                                                           device_map="auto" \
@@ -138,7 +145,7 @@ class QwenVL:
             self.logger.debug(f"\nChat_template:\n{messages}")
             input_text = self.llm_processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
             inputs = self.llm_processor(image, input_text,
-                                        add_special_tokens=False,
+                                        # add_special_tokens=False,
                                         padding=True,
                                         return_tensors="pt").to(self.llm.device)
             # Generate caption
@@ -146,7 +153,15 @@ class QwenVL:
                 max_new_tokens = 128
                 self.logger.warning(f'LLM temperature and max_new_tokens not set, only '
                                     f'using default max_new_tokens value {max_new_tokens}')
-                params = {}
+                params = {
+                    # 'greedy': 'false',
+                    'top_p': 0.8,
+                    'top_k': 20,
+                    'temperature': 0.7,
+                    # 'repetition_penalty': 1.0,
+                    # 'presence_penalty': 1.5,
+                    # 'out_seq_length': 16384
+                }
             else:
                 if temperature == 0:
                     temperature = 0.7
@@ -164,19 +179,30 @@ class QwenVL:
                 else:
                     self.logger.debug(f'LLM max_new_tokens is {max_new_tokens}')
                 params = {
-                    'temperature': temperature,
+                    # 'greedy': 'false',
                     'top_p': top_p,
-                    'do_sample': True
+                    'top_k': 20,
+                    'temperature': temperature,
+                    # 'repetition_penalty': 1.0,
+                    # 'presence_penalty': 1.5,
+                    # 'out_seq_length': 16384
+                    # 'do_sample': True
                 }
 
-            output = self.llm.generate(**inputs, max_new_tokens=max_new_tokens, **params)
-            content = self.llm_processor.decode(output[0][inputs["input_ids"].shape[-1]:],
-                                                skip_special_tokens=True, clean_up_tokenization_spaces=True)
-
-            content_list = str(content).split(".")
-            unique_content = list(dict.fromkeys(content_list))
-            unique_content = '.'.join(unique_content)
-            return unique_content
+            generated_ids = self.llm.generate(**inputs, max_new_tokens=max_new_tokens, **params)
+            generated_ids_trimmed = [
+                out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            ]
+            output_text = self.llm_processor.batch_decode(
+                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            )
+            # content = self.llm_processor.decode(output[0][inputs["input_ids"].shape[-1]:],
+            #                                     skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            #
+            # content_list = str(content).split(".")
+            # unique_content = list(dict.fromkeys(content_list))
+            # unique_content = '.'.join(unique_content)
+            return output_text
 
     def inference(self):
         llm_inference(self)
