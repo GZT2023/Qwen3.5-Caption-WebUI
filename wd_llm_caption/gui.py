@@ -926,7 +926,7 @@ def gui():
                 if args.data_path and not os.path.exists(args.data_path):
                     raise gr.Error(f"{args.data_path} NOT FOUND!!!")
                 if args.custom_caption_save_path and not os.path.exists(args.custom_caption_save_path):
-                    raise gr.Error(f"{args.data_path} NOT FOUND!!!")
+                    raise gr.Error(f"{args.custom_caption_save_path} NOT FOUND!!!")
 
                 start_time = time.monotonic()
                 get_caption_fn.run_inference(args)

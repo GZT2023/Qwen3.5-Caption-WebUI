@@ -195,7 +195,7 @@ class QwenVL:
             ]
             output_text = self.llm_processor.batch_decode(
                 generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            )
+            )[0]
             # content = self.llm_processor.decode(output[0][inputs["input_ids"].shape[-1]:],
             #                                     skip_special_tokens=True, clean_up_tokenization_spaces=True)
             #

@@ -1,4 +1,94 @@
 {
+  "Qwen3-VL-2B-Instruct": {
+    "huggingface": {
+      "llm": {
+        "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+        "revision": "main",
+        "repo_type": "model",
+        "subfolder": "",
+        "file_list": {
+          "merges.txt": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/merges.txt",
+          "chat_template.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/chat_template.json",
+          "config.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/vocab.json",
+          "video_preprocessor_config.json": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/video_preprocessor_config.json",
+          "model.safetensors": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/model.safetensors"
+        }
+      }
+    },
+    "modelscope": {
+      "llm": {
+        "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+        "revision": "master",
+        "repo_type": "model",
+        "subfolder": "",
+        "file_list": {
+          "merges.txt": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/merges.txt",
+          "chat_template.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/chat_template.json",
+          "config.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/preprocessor_config.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/vocab.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/video_preprocessor_config.json",
+          "model.safetensors": "https://www.modelscope.cn/models/Qwen/Qwen3-VL-2B-Instruct/resolve/master/model.safetensors"
+        }
+      }
+    }
+  },
+  "Qwen3-VL-2B-Instruct-abliterated": {
+    "huggingface": {
+      "llm": {
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated",
+        "revision": "main",
+        "repo_type": "model",
+        "subfolder": "",
+        "file_list": {
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/added_tokens.json",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/merges.txt",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/chat_template.jinja",
+          "chat_template.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/chat_template.json",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/vocab.json",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/special_tokens_map.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
+          "model.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/main/model.safetensors"
+        }
+      }
+    },
+    "modelscope": {
+      "llm": {
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated",
+        "revision": "master",
+        "repo_type": "model",
+        "subfolder": "",
+        "file_list": {
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/added_tokens.json",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/merges.txt",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/chat_template.jinja",
+          "chat_template.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/chat_template.json",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/preprocessor_config.json",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/special_tokens_map.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/vocab.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
+          "model.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-2B-Instruct-abliterated/resolve/master/model.safetensors"
+        }
+      }
+    }
+  },
   "Qwen3-VL-4B-Instruct": {
     "huggingface": {
       "llm": {
@@ -48,45 +138,49 @@
   "Qwen3-VL-4B-Instruct-abliterated": {
     "huggingface": {
       "llm": {
-        "repo_id": "prithivMLmods/Qwen3-VL-4B-Instruct-abliterated",
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated",
         "revision": "main",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/added_tokens.json",
-          "merges.txt": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/merges.txt",
-          "chat_template.jinja": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/chat_template.jinja",
-          "config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/config.json",
-          "generation_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/generation_config.json",
-          "preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/preprocessor_config.json",
-          "tokenizer.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/tokenizer.json",
-          "tokenizer_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/tokenizer_config.json",
-          "vocab.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/vocab.json",
-          "special_tokens_map.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/special_tokens_map.json",
-          "video_preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
-          "model.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Instruct-abliterated/resolve/main/model.safetensors"
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/added_tokens.json",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/merges.txt",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/chat_template.jinja",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/vocab.json",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/special_tokens_map.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
+          "model.safetensors.index.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/model.safetensors.index.json",
+          "model-00001-of-00002.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/model-00002-of-00002.safetensors"
         }
       }
     },
     "modelscope": {
       "llm": {
-        "repo_id": "fireicewolf/Qwen3-VL-4B-Instruct-abliterated",
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated",
         "revision": "master",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/added_tokens.json",
-          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/merges.txt",
-          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/chat_template.jinja",
-          "config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/config.json",
-          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/generation_config.json",
-          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/preprocessor_config.json",
-          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/special_tokens_map.json",
-          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/tokenizer.json",
-          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/tokenizer_config.json",
-          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/vocab.json",
-          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
-          "model.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Instruct-abliterated/resolve/master/model.safetensors"
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/added_tokens.json",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/merges.txt",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/chat_template.jinja",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/preprocessor_config.json",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/special_tokens_map.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/vocab.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
+          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/model.safetensors.index.json",
+          "model-00001-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/master/model-00002-of-00002.safetensors"
         }
       }
     }
@@ -94,45 +188,49 @@
   "Qwen3-VL-4B-Thinking-abliterated": {
     "huggingface": {
       "llm": {
-        "repo_id": "prithivMLmods/Qwen3-VL-4B-Thinking-abliterated",
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated",
         "revision": "main",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/added_tokens.json",
-          "merges.txt": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/merges.txt",
-          "chat_template.jinja": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/chat_template.jinja",
-          "config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/config.json",
-          "generation_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/generation_config.json",
-          "preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/preprocessor_config.json",
-          "tokenizer.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/tokenizer.json",
-          "tokenizer_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/tokenizer_config.json",
-          "vocab.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/vocab.json",
-          "special_tokens_map.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/special_tokens_map.json",
-          "video_preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/video_preprocessor_config.json",
-          "model.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-4B-Thinking-abliterated/resolve/main/model.safetensors"
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/added_tokens.json",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/merges.txt",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/chat_template.jinja",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/vocab.json",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/special_tokens_map.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/video_preprocessor_config.json",
+          "model.safetensors.index.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/model.safetensors.index.json",
+          "model-00001-of-00002.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/main/model-00002-of-00002.safetensors"
         }
       }
     },
     "modelscope": {
       "llm": {
-        "repo_id": "fireicewolf/Qwen3-VL-4B-Thinking-abliterated",
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated",
         "revision": "master",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/added_tokens.json",
-          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/merges.txt",
-          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/chat_template.jinja",
-          "config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/config.json",
-          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/generation_config.json",
-          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/preprocessor_config.json",
-          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/special_tokens_map.json",
-          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/tokenizer.json",
-          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/tokenizer_config.json",
-          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/vocab.json",
-          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/video_preprocessor_config.json",
-          "model.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-4B-Thinking-abliterated/resolve/master/model.safetensors"
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/added_tokens.json",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/merges.txt",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/chat_template.jinja",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/preprocessor_config.json",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/special_tokens_map.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/vocab.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/video_preprocessor_config.json",
+          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/model.safetensors.index.json",
+          "model-00001-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-4B-Thinking-abliterated/resolve/master/model-00002-of-00002.safetensors"
         }
       }
     }
@@ -190,49 +288,53 @@
   "Qwen3-VL-8B-Instruct-abliterated": {
     "huggingface": {
       "llm": {
-        "repo_id": "prithivMLmods/Qwen3-VL-8B-Instruct-abliterated",
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated",
         "revision": "main",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/added_tokens.json",
-          "chat_template.jinja": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/chat_template.jinja",
-          "merges.txt": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/merges.txt",
-          "special_tokens_map.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/special_tokens_map.json",
-          "config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/config.json",
-          "generation_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/generation_config.json",
-          "preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/preprocessor_config.json",
-          "tokenizer.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/tokenizer.json",
-          "tokenizer_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/tokenizer_config.json",
-          "vocab.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/vocab.json",
-          "model.safetensors.index.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
-          "model-00001-of-00002.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00001-of-00002.safetensors",
-          "model-00002-of-00002.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00002-of-00002.safetensors"
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/added_tokens.json",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/chat_template.jinja",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/merges.txt",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/special_tokens_map.json",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/vocab.json",
+          "model.safetensors.index.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
+          "model-00001-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00001-of-00004.safetensors",
+          "model-00002-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00002-of-00004.safetensors",
+          "model-00003-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00003-of-00004.safetensors",
+          "model-00004-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/model-00004-of-00004.safetensors"
         }
       }
     },
     "modelscope": {
       "llm": {
-        "repo_id": "fireicewolf/Qwen3-VL-8B-Instruct-abliterated",
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated",
         "revision": "master",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/added_tokens.json",
-          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/chat_template.jinja",
-          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/merges.txt",
-          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/special_tokens_map.json",
-          "config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/config.json",
-          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/generation_config.json",
-          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/preprocessor_config.json",
-          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/tokenizer.json",
-          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/tokenizer_config.json",
-          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/vocab.json",
-          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
-          "model-00001-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00001-of-00002.safetensors",
-          "model-00002-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00002-of-00002.safetensors"
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/added_tokens.json",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/chat_template.jinja",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/merges.txt",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/special_tokens_map.json",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/preprocessor_config.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/vocab.json",
+          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
+          "model-00001-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00001-of-00004.safetensors",
+          "model-00002-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00002-of-00004.safetensors",
+          "model-00003-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00003-of-00004.safetensors",
+          "model-00004-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/master/model-00004-of-00004.safetensors"
         }
       }
     }
@@ -240,49 +342,53 @@
   "Qwen3-VL-8B-Thinking-abliterated": {
     "huggingface": {
       "llm": {
-        "repo_id": "prithivMLmods/Qwen3-VL-8B-Thinking-abliterated",
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated",
         "revision": "main",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/added_tokens.json",
-          "chat_template.jinja": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/chat_template.jinja",
-          "merges.txt": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/merges.txt",
-          "special_tokens_map.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/special_tokens_map.json",
-          "config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/config.json",
-          "generation_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/generation_config.json",
-          "preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/preprocessor_config.json",
-          "tokenizer.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/tokenizer.json",
-          "tokenizer_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/tokenizer_config.json",
-          "vocab.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/vocab.json",
-          "model.safetensors.index.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/video_preprocessor_config.json",
-          "model-00001-of-00002.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00001-of-00002.safetensors",
-          "model-00002-of-00002.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00002-of-00002.safetensors"
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/added_tokens.json",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/chat_template.jinja",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/merges.txt",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/special_tokens_map.json",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/vocab.json",
+          "model.safetensors.index.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/video_preprocessor_config.json",
+          "model-00001-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00001-of-00004.safetensors",
+          "model-00002-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00002-of-00004.safetensors",
+          "model-00003-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00003-of-00004.safetensors",
+          "model-00004-of-00004.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/main/model-00004-of-00004.safetensors"
         }
       }
     },
     "modelscope": {
       "llm": {
-        "repo_id": "fireicewolf/Qwen3-VL-8B-Thinking-abliterated",
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated",
         "revision": "master",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/added_tokens.json",
-          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/chat_template.jinja",
-          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/merges.txt",
-          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/special_tokens_map.json",
-          "config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/config.json",
-          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/generation_config.json",
-          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/preprocessor_config.json",
-          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/tokenizer.json",
-          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/tokenizer_config.json",
-          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/vocab.json",
-          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/video_preprocessor_config.json",
-          "model-00001-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00001-of-00002.safetensors",
-          "model-00002-of-00002.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00002-of-00002.safetensors"
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/added_tokens.json",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/chat_template.jinja",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/merges.txt",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/special_tokens_map.json",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/preprocessor_config.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/vocab.json",
+          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/video_preprocessor_config.json",
+          "model-00001-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00001-of-00004.safetensors",
+          "model-00002-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00002-of-00004.safetensors",
+          "model-00003-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00003-of-00004.safetensors",
+          "model-00004-of-00004.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-8B-Thinking-abliterated/resolve/master/model-00004-of-00004.safetensors"
         }
       }
     }
@@ -358,55 +464,71 @@
   "Qwen3-VL-30B-A3B-Instruct-abliterated": {
     "huggingface": {
       "llm": {
-        "repo_id": "prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated",
+        "repo_id": "huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated",
         "revision": "main",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/added_tokens.json",
-          "chat_template.jinja": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/chat_template.jinja",
-          "merges.txt": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/merges.txt",
-          "special_tokens_map.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/special_tokens_map.json",
-          "config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/config.json",
-          "generation_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/generation_config.json",
-          "preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/preprocessor_config.json",
-          "tokenizer.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/tokenizer.json",
-          "tokenizer_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/tokenizer_config.json",
-          "vocab.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/vocab.json",
-          "model.safetensors.index.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
-          "model-00001-of-00005.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00001-of-00005.safetensors",
-          "model-00002-of-00005.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00002-of-00005.safetensors",
-          "model-00003-of-00005.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00003-of-00005.safetensors",
-          "model-00004-of-00005.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00004-of-00005.safetensors",
-          "model-00005-of-00005.safetensors": "https://huggingface.co/prithivMLmods/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00005-of-00005.safetensors"
+          "added_tokens.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/added_tokens.json",
+          "chat_template.jinja": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/chat_template.jinja",
+          "merges.txt": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/merges.txt",
+          "special_tokens_map.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/special_tokens_map.json",
+          "config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/generation_config.json",
+          "preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/preprocessor_config.json",
+          "tokenizer.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/tokenizer_config.json",
+          "vocab.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/vocab.json",
+          "model.safetensors.index.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/video_preprocessor_config.json",
+          "model-00001-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00001-of-00013.safetensors",
+          "model-00002-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00002-of-00013.safetensors",
+          "model-00003-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00003-of-00013.safetensors",
+          "model-00004-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00004-of-00013.safetensors",
+          "model-00005-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00005-of-00013.safetensors",
+          "model-00006-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00006-of-00013.safetensors",
+          "model-00007-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00007-of-00013.safetensors",
+          "model-00008-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00008-of-00013.safetensors",
+          "model-00009-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00009-of-00013.safetensors",
+          "model-00010-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00010-of-00013.safetensors",
+          "model-00011-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00011-of-00013.safetensors",
+          "model-00012-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00012-of-00013.safetensors",
+          "model-00013-of-00013.safetensors": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/main/model-00013-of-00013.safetensors"
         }
       }
     },
     "modelscope": {
       "llm": {
-        "repo_id": "fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated",
+        "repo_id": "fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated",
         "revision": "master",
         "repo_type": "model",
         "subfolder": "",
         "file_list": {
-          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/added_tokens.json",
-          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/chat_template.jinja",
-          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/merges.txt",
-          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/special_tokens_map.json",
-          "config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/config.json",
-          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/generation_config.json",
-          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/preprocessor_config.json",
-          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/tokenizer.json",
-          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/tokenizer_config.json",
-          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/vocab.json",
-          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model.safetensors.index.json",
-          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
-          "model-00001-of-00005.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00001-of-00005.safetensors",
-          "model-00002-of-00005.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00002-of-00005.safetensors",
-          "model-00003-of-00005.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00003-of-00005.safetensors",
-          "model-00004-of-00005.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00004-of-00005.safetensors",
-          "model-00005-of-00005.safetensors": "https://www.modelscope.cn/models/fireicewolf/Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00005-of-00005.safetensors"
+          "added_tokens.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/added_tokens.json",
+          "chat_template.jinja": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/chat_template.jinja",
+          "merges.txt": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/merges.txt",
+          "special_tokens_map.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/special_tokens_map.json",
+          "config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/config.json",
+          "generation_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/generation_config.json",
+          "preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/preprocessor_config.json",
+          "tokenizer.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/tokenizer.json",
+          "tokenizer_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/tokenizer_config.json",
+          "vocab.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/vocab.json",
+          "model.safetensors.index.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model.safetensors.index.json",
+          "video_preprocessor_config.json": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/video_preprocessor_config.json",
+          "model-00001-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00001-of-00013.safetensors",
+          "model-00002-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00002-of-00013.safetensors",
+          "model-00003-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00003-of-00013.safetensors",
+          "model-00004-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00004-of-00013.safetensors",
+          "model-00005-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00005-of-00013.safetensors",
+          "model-00006-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00006-of-00013.safetensors",
+          "model-00007-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00007-of-00013.safetensors",
+          "model-00008-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00008-of-00013.safetensors",
+          "model-00009-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00009-of-00013.safetensors",
+          "model-00010-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00010-of-00013.safetensors",
+          "model-00011-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00011-of-00013.safetensors",
+          "model-00012-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00012-of-00013.safetensors",
+          "model-00013-of-00013.safetensors": "https://www.modelscope.cn/models/fireicewolf/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated/resolve/master/model-00013-of-00013.safetensors"
         }
       }
     }
