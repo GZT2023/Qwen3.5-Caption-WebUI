@@ -19,19 +19,25 @@
 
 
 git clone https://github.com/GZT2023/Qwen3.5-Caption-WebUI.git
+
 cd Qwen3.5-Caption-WebUI
 
 python -m venv --copies venv
+
 .\venv\Scripts\activate
 
 python -m pip install --upgrade pip
+
 pip install torch==2.10.0+cu130 torchvision==0.25.0+cu130 --index-url https://download.pytorch.org/whl/cu130
+
 pip install -r requirements.txt
+
 
 自行安装Flash Attention 2 等 加速（可选）  
 
 ## 运行
 激活虚拟环境
+
 .\venv\Scripts\activate
 
 .\venv\Scripts\python.exe -s gui.py --inbrowser
