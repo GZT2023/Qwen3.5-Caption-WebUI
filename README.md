@@ -99,7 +99,7 @@ Qwen3.5-Caption-WebUI/
 
 ├── configs/
 
-│   └── default_qwen_vl.json   # 模型名称到ID的映射
+   │   └── default_qwen_vl.json   # 模型名称到ID的映射
 
 ├── models/             # 模型缓存目录（自动创建）
 
