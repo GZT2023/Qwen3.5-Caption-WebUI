@@ -51,24 +51,39 @@ WebUI 界面说明
 界面分为左右两栏：
 
 左侧：模型配置与生成参数
+
 Qwen3.5 Model：选择模型（2B/4B/9B/27B/35B-A3B）
+
 Download Source：下载源，默认 modelscope（国内快），可选 huggingface
+
 Quantization：量化选项（none/4bit/8bit）
+
 Use SDPA (PyTorch native attention, more stable)：启用 SDPA加速 
+
 Disable thinking mode：去除输出中的 <think>...</think> 思考内容
+
 Generation Parameters：生成参数（0 表示使用模型默认值）
+
 Temperature：采样温度
+
 Top_p：核采样概率阈值
+
 Max New Tokens：最大生成长度（默认 1024，上限 8192）
+
 Image Size：输入图像缩放尺寸（默认 1024）
+
 Batch Size：批量处理时的并行数
+
 Auto unload after inference：推理后自动卸载模型释放显存
+
 System Prompt / User Prompt：自定义提示词
 
 先设置好参数，再加载模型，同理切换模型先卸载模型，再加载模型。
 
 右侧：图片输入与结果
+
 Single Image 标签：上传单张图片，点击生成
+
 Batch 标签：指定输入目录、递归选项、自定义保存目录等，点击开始批量处理
 
 
