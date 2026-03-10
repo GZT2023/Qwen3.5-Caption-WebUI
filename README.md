@@ -6,7 +6,7 @@
 
 充电支持：[B站：赛博画师GZT](https://space.bilibili.com/702745384)
 
-![示例图片](示例.png)
+![示例图片](image/示例.png)
 ## 特性
 
 - 支持 Qwen3.5-2B/4B/9B/27B/35B-A3B 等模型
