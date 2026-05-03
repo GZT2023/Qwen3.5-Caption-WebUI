@@ -24,9 +24,9 @@ git clone https://github.com/GZT2023/Qwen3.5-Caption-WebUI.git
 
 cd Qwen3.5-Caption-WebUI
 
-python -m venv --copies venv
+python -m venv --copies portable_env
 
-.\venv\Scripts\activate
+.\portable_env\Scripts\activate
 
 python -m pip install --upgrade pip
 
@@ -39,9 +39,9 @@ pip install -r requirements.txt
 ## 运行
 激活虚拟环境
 
-.\venv\Scripts\activate
+.\portable_env\Scripts\activate
 
-.\venv\Scripts\python.exe -s gui.py --inbrowser
+.\portable_env\Scripts\activate -s gui.py --inbrowser
 
 
 或直接运行 启动.bat
