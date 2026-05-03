@@ -4,8 +4,6 @@
 
 代码使用AI生成，成功运行。
 
-充电支持：[B站：赛博画师GZT](https://space.bilibili.com/702745384)
-
 
 ![示例图片](image/示例.png)
 
