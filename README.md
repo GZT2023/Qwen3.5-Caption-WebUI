@@ -1,3 +1,5 @@
+充电支持：🔗 [B站：赛博画师GZT](https://space.bilibili.com/702745384)
+
 # Qwen3.5-Caption-WebUI
 
 一个基于 Qwen3.5 系列视觉语言模型的图像描述生成工具，提供简洁的命令行和 WebUI 界面。
